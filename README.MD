@@ -4,13 +4,13 @@ Discord ticket is a node module that allow you to create ticket simply and easy
 
 # Installation
 
-`npm i discord-ticket`
+`npm i discord-ticket-framework`
 
 # Exemple
 
 ```js
 const Discord = require('discord.js');
-const {TicketsManager} = require('discord-ticket');
+const {TicketsManager} = require('discord-ticket-framework');
 const client = new Discord.Client();
 // this is a sequelize connection you, if you already have one don't do this.
 

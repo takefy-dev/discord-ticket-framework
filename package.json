@@ -1,7 +1,7 @@
 {
-  "name": "discord-ticket",
+  "name": "discord-ticket-framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "A framework that allow you to mange ticket system with simplicity and facility",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,9 @@
     "ticket",
     "tickets",
     "ticket-discord",
-    "tickets-discord"
+    "tickets-discord",
+    "ticket-tool",
+    "discord-support"
   ],
   "author": "TakeFy",
   "license": "ISC",

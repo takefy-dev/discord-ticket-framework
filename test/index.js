@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client({partials: ['MESSAGE', "REACTION"]});
 const config = require("./config")
 const {Sequelize} = require('sequelize')
-const { TicketsManager } = require('discord-ticket');
+const { TicketsManager } = require('discord-ticket-framework');
 const db = new Sequelize(config.database.name, config.database.user, config.database.password, {
     dialect: "mysql",
     define: {
