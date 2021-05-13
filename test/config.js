@@ -1,9 +1,9 @@
 module.exports = {
-  token : "NzgzMDM4MDM3NDE5NjIyNDEx.X8U7AA.OvLF5ecWtAyv__TGZM7br_1BMqg",
+  token : "token",
   prefix : ':',
   database : {
     user: "takefydev",
-    password:  "murphy7777",
+    password:  "x",
     name : "ticket"
   }
 }
