@@ -92,6 +92,7 @@ module.exports = class TicketManager {
                 guildId: guild.id,
                 parentId: message.channel.parentID,
                 welcomeMessageId: message.id,
+                channelId: message.channel.id,
                 welcomeMessage: options.welcomeMessage
             })
             this.generateTicketChannel(ticket).then(async (channel) => {
